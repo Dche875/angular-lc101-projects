@@ -13,4 +13,10 @@ export class ButtonsComponent implements OnInit {
 
    ngOnInit() { }
 
+   colorDeactivate(): boolean {
+      if(click)
+   }
 }
+
+
+//[class.copper]="!inactive" [disabled]="inactive" (click)="inactive = true">Copper</button> <br>
